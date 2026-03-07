@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    box-sizing: border-box;
+}
+.btn {
+    height: 70px;
+    width: 70px;
+}
+
+
+.screen {
+    text-align: right;
+} 
+
+
+#calculator {
+    padding: 5px;
+    width: 400px;
+    border: 1px solid black;
+}

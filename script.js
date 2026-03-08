@@ -76,6 +76,7 @@ function inputNum(val) {
 }
 
 function updateOperator(op) {
+    if (!firstNum) return;
     if (firstNum && secondNum && operator) {
         calculate();
     } 
